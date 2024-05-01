@@ -29,6 +29,7 @@ class Point2D {
     ctx.fillRect(this.x, this.y, 1, 1);
   }
 }
+
 const canvas = document.getElementById("maincanvas");
 const generatebutton = document.querySelector(".generate-button");
 let widthreal = document.querySelector(".width-enter");
